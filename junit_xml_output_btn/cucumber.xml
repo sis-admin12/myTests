@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.541953">
+    <testcase classname="Verify Service and Instagram btn" name="Work with Service and Instagram btn" time="9.541953">
+        <failure message="org.junit.ComparisonFailure: expected:&lt;...tps://urchinsys.com/[#services]&gt; but was:&lt;...tps://urchinsys.com/[]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at StepDefinition.StepDefinitionBtn.verify_that_the_correct_URL_https_urchinsys_com_services_loads(StepDefinitionBtn.java:87)&#13;&#10;&#9;at ✽.And Verify that the correct URL (https://urchinsys.com/#services) loads(C:/Users/Serghei.Matura/eclipse-workspace/MavenCucumber/Features/btn.feature:7)&#13;&#10;"><![CDATA[Given Open a Web browser "Mozila"...........................................passed
+When Open this url "https://urchinsys.com/".................................passed
+And Click ‘Services’ button from the top....................................passed
+And Verify that the correct URL (https://urchinsys.com/#services) loads.....failed
+And Verify that there is ‘Software Development’ information.................skipped
+And Click the instagram button from the footer..............................skipped
+Then Verify that the correct URL (https://www.instagram.com/urchinsys/) loads and verify if the Urchinsys profile is opened.skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<...tps://urchinsys.com/[#services]> but was:<...tps://urchinsys.com/[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at StepDefinition.StepDefinitionBtn.verify_that_the_correct_URL_https_urchinsys_com_services_loads(StepDefinitionBtn.java:87)
+	at ✽.And Verify that the correct URL (https://urchinsys.com/#services) loads(C:/Users/Serghei.Matura/eclipse-workspace/MavenCucumber/Features/btn.feature:7)
+]]></failure>
+    </testcase>
+</testsuite>

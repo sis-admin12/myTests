@@ -1,0 +1,471 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5986871100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionBtn.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5380988300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsforEmail.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Try to send a question with an invalid email",
+        "description": "",
+        "id": "sent-a-question-to-the-website;try-to-send-a-question-with-an-invalid-email;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4978234000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionBtn.close()"
+            }
+          },
+          {
+            "result": {
+              "duration": 715964400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsforEmail.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4318252200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the browser",
+            "match": {
+              "location": "StepDefinitionsforEmail.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20439866000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the URL \"https://urchinsys.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://urchinsys.com/",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitionsforEmail.enter_the_URL(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75368500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Find ‘Get your questions answered! ’ and click",
+            "match": {
+              "location": "StepDefinitionsforEmail.find_Get_your_questions_answered_and_click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1986528400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter name and questions",
+            "match": {
+              "location": "StepDefinitionsforEmail.enter_name_and_questions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49742600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter 3 invalid email \"sadsad@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 6
+                },
+                {
+                  "val": "sadsad@",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinitionsforEmail.enter_invalid_email(int,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21331000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click send button",
+            "match": {
+              "location": "StepDefinitionsforEmail.click_send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281749600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User see an message error",
+            "match": {
+              "location": "StepDefinitionsforEmail.user_see_an_message_error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5447456800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionBtn.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5370465300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsforEmail.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Try to send a question with an invalid email",
+        "description": "",
+        "id": "sent-a-question-to-the-website;try-to-send-a-question-with-an-invalid-email;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4640674000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionBtn.close()"
+            }
+          },
+          {
+            "result": {
+              "duration": 707854500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsforEmail.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4179238100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the browser",
+            "match": {
+              "location": "StepDefinitionsforEmail.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5064843900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the URL \"https://urchinsys.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://urchinsys.com/",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitionsforEmail.enter_the_URL(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139269500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Find ‘Get your questions answered! ’ and click",
+            "match": {
+              "location": "StepDefinitionsforEmail.find_Get_your_questions_answered_and_click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2489222300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter name and questions",
+            "match": {
+              "location": "StepDefinitionsforEmail.enter_name_and_questions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65249000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter 3 invalid email \"kgjhhg@khjg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 6
+                },
+                {
+                  "val": "kgjhhg@khjg",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinitionsforEmail.enter_invalid_email(int,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26478200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click send button",
+            "match": {
+              "location": "StepDefinitionsforEmail.click_send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283148300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User see an message error",
+            "match": {
+              "location": "StepDefinitionsforEmail.user_see_an_message_error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5254580300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionBtn.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5409985600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsforEmail.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Try to send a question with an invalid email",
+        "description": "",
+        "id": "sent-a-question-to-the-website;try-to-send-a-question-with-an-invalid-email;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 715852900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionBtn.close()"
+            }
+          },
+          {
+            "result": {
+              "duration": 697537400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsforEmail.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4155308700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the browser",
+            "match": {
+              "location": "StepDefinitionsforEmail.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6466042900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the URL \"https://urchinsys.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://urchinsys.com/",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitionsforEmail.enter_the_URL(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65102800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Find ‘Get your questions answered! ’ and click",
+            "match": {
+              "location": "StepDefinitionsforEmail.find_Get_your_questions_answered_and_click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1882874700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter name and questions",
+            "match": {
+              "location": "StepDefinitionsforEmail.enter_name_and_questions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55796600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter 3 invalid email \"sfds@as.c.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 6
+                },
+                {
+                  "val": "sfds@as.c.",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinitionsforEmail.enter_invalid_email(int,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21371400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click send button",
+            "match": {
+              "location": "StepDefinitionsforEmail.click_send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 271144500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User see an message error",
+            "match": {
+              "location": "StepDefinitionsforEmail.user_see_an_message_error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sent a question to the Website",
+    "description": "",
+    "id": "sent-a-question-to-the-website",
+    "keyword": "Feature",
+    "uri": "C:/Users/Serghei.Matura/eclipse-workspace/MavenCucumber/Features/email.feature"
+  }
+]

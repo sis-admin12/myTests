@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="49.76001">
+    <testcase classname="Sent a question to the Website" name="Try to send a question with an invalid email" time="16.985986">
+        <system-out><![CDATA[Given Open the browser "Chrome".............................................passed
+When Enter the URL "https://urchinsys.com/".................................passed
+And Find ‘Get your questions answered! ’ and click..........................passed
+And Enter name and questions................................................passed
+And Enter 3 invalid email "sadsad@".........................................passed
+And Click send button.......................................................passed
+Then User see an message error..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sent a question to the Website" name="Try to send a question with an invalid email 2" time="16.423365">
+        <system-out><![CDATA[Given Open the browser "Chrome".............................................passed
+When Enter the URL "https://urchinsys.com/".................................passed
+And Find ‘Get your questions answered! ’ and click..........................passed
+And Enter name and questions................................................passed
+And Enter 3 invalid email "kgjhhg@khjg".....................................passed
+And Click send button.......................................................passed
+Then User see an message error..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sent a question to the Website" name="Try to send a question with an invalid email 3" time="16.350659">
+        <system-out><![CDATA[Given Open the browser "Chrome".............................................passed
+When Enter the URL "https://urchinsys.com/".................................passed
+And Find ‘Get your questions answered! ’ and click..........................passed
+And Enter name and questions................................................passed
+And Enter 3 invalid email "sfds@as.c."......................................passed
+And Click send button.......................................................passed
+Then User see an message error..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,127 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Work with Service and Instagram btn",
+        "description": "",
+        "id": "verify-service-and-instagram-btn;work-with-service-and-instagram-btn",
+        "after": [
+          {
+            "result": {
+              "duration": 894107100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionBtn.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4286241800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open a Web browser \"Mozila\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mozila",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinitionBtn.open_the_Web_browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4318442900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open this url \"https://urchinsys.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://urchinsys.com/",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitionBtn.get_the_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38900100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click ‘Services’ button from the top",
+            "match": {
+              "location": "StepDefinitionBtn.click_Services_button_from_the_top()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4260700,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c...tps://urchinsys.com/[#services]\u003e but was:\u003c...tps://urchinsys.com/[]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat StepDefinition.StepDefinitionBtn.verify_that_the_correct_URL_https_urchinsys_com_services_loads(StepDefinitionBtn.java:87)\r\n\tat ✽.And Verify that the correct URL (https://urchinsys.com/#services) loads(C:/Users/Serghei.Matura/eclipse-workspace/MavenCucumber/Features/btn.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Verify that the correct URL (https://urchinsys.com/#services) loads",
+            "match": {
+              "location": "StepDefinitionBtn.verify_that_the_correct_URL_https_urchinsys_com_services_loads()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Verify that there is ‘Software Development’ information",
+            "match": {
+              "location": "StepDefinitionBtn.verify_that_there_is_Software_Development_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click the instagram button from the footer",
+            "match": {
+              "location": "StepDefinitionBtn.click_the_instagram_button_from_the_footer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Verify that the correct URL (https://www.instagram.com/urchinsys/) loads and verify if the Urchinsys profile is opened",
+            "match": {
+              "location": "StepDefinitionBtn.verify_that_the_correct_URL_https_www_instagram_com_urchinsys_loads_and_verify_if_the_Urchinsys_profile_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Service and Instagram btn",
+    "description": "",
+    "id": "verify-service-and-instagram-btn",
+    "keyword": "Feature",
+    "uri": "C:/Users/Serghei.Matura/eclipse-workspace/MavenCucumber/Features/btn.feature"
+  }
+]
